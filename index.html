@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Write Streak Any Language</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="max-w-2xl mx-auto py-10 px-4">
+    <h1 class="text-2xl font-bold mb-4 text-center">Write Streak Any Language</h1>
+
+    <label for="userInput" class="block mb-2 font-medium">Enter your writing：</label>
+    <textarea id="userInput" rows="6" class="w-full p-3 border border-gray-300 rounded-lg mb-4" placeholder="Example：Je voudrais améliorer mon français."></textarea>
+
+    <label for="replyLang" class="block mb-2 font-medium">Choose a response language：</label>
+    <select id="replyLang" class="w-full p-2 border border-gray-300 rounded-lg mb-4">
+      <option value="zh">中文</option>
+      <option value="en">English</option>
+      <option value="es">Español</option>
+    </select>
+
+    <button onclick="getAIResponse()" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">AI Assistant</button>
+
+    <div id="aiFeedback" class="mt-6 p-4 bg-white border border-gray-200 rounded-lg whitespace-pre-wrap"></div>
+  </div>
+</body>
+</html>
