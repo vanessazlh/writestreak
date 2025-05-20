@@ -22,8 +22,6 @@ Write Streak Assistant is a web-based tool designed for language learners to rec
 ## How to Use (Locally)
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/yourusername/rewrite-ai-web.git
 cd rewrite-ai-web
 2. Install dependencies:
