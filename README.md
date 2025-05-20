@@ -1,6 +1,8 @@
 # Write Streak Assistant
 
 Write Streak Assistant is a web-based tool designed for language learners to receive feedback on their writing in a foreign language. Inspired by the r/WriteStreak community on Reddit, the tool provides structured suggestions and corrections powered by OpenAI's language models.
+![image](https://github.com/user-attachments/assets/b09c0b12-6a40-421e-a71b-38a6b00cf9f6)
+
 
 ## Features
 
